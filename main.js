@@ -36,20 +36,20 @@
 // }
 // console.log(stringToArray("I love arrays they are my favorite"));
 // 5-masala==============================================================
-// function findminimum(params) {
-//   let minnumber = Math.min(...params);
-//   return minnumber;
-// }
-
-// console.log(findminimum([34, -345, -1, 100]));
-// 6-masala================================================
-let sum = 0;
-let average;
-function getAverage(marks) {
-  for (let number of marks) {
-    sum += number;
-  }
-  average = sum / marks.length;
-  return Math.floor(average);
+function findminimum(params) {
+  let minnumber = Math.min(...params);
+  return minnumber;
 }
-console.log(getAverage([1, 2, 3, 4, 5]));
+
+console.log(findminimum([34, -345, -1, 100]));
+// 6-masala================================================
+// let sum = 0;
+// let average;
+// function getAverage(marks) {
+//   for (let number of marks) {
+//     sum += number;
+//   }
+//   average = sum / marks.length;
+//   return Math.floor(average);
+// }
+// console.log(getAverage([1, 2, 3, 4, 5]);
