@@ -99,11 +99,20 @@ a {
   height: 600px;
   border-radius: 12px;
 }
+.swcard6 {
+  background-image: url(../src/assets/img/card6.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  border-radius: 12px;
+}
 @media (max-width: 1024px) {
   .swcard1,
   .swcard2,
   .swcard3,
-  .swcard4 {
+  .swcard4,
+  .swcard6 {
     height: 400px;
   }
 }

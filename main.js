@@ -36,12 +36,12 @@
 // }
 // console.log(stringToArray("I love arrays they are my favorite"));
 // 5-masala==============================================================
-function findminimum(params) {
-  let minnumber = Math.min(...params);
-  return minnumber;
-}
+// function findminimum(params) {
+//   let minnumber = Math.min(...params);
+//   return minnumber;
+// }
 
-console.log(findminimum([34, -345, -1, 100]));
+// console.log(findminimum([34, -345, -1, 100]));
 // 6-masala================================================
 // let sum = 0;
 // let average;
