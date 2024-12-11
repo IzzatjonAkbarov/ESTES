@@ -84,3 +84,81 @@
 // console.log(person);
 // console.log(person2);
 //
+
+
+
+
+
+
+
+
+txt about lesson
+
+
+
+
+debugging 
+error
+strict mode
+runtime
+this keyword
+references
+
+
+
+
+debugging
+console obj log and table ekranga chiqaradi va table tartibli qilib chiqaradi 
+debugger kodni muayyan nuqtada toxtatib xatosi bor yoki yoqligini tekshirish uchun ishlatiladi
+ brakpoints sourcedanqoyiladi kodni malm bir qismini ishlatish uchun nuqta bu dev toolsdakod chap tomoniga bosib brakpoints qoyiladi
+
+rubber duck debugging bu oziga ozi tushuntirib xatosini topish
+
+
+
+error
+
+
+types 7 
+range kopincha xato qiymatlar yoki uzunliklar berilganda yuzaga keladi masalan 100/0 errorgacha oqiydi
+reference  ketmaketlikda xatolik hoisting tdz ozidan oldin chaqirishga urunish
+syntax yozishda xatolik  umuman ishlamaydi
+type  bowqa  type metodini boshqa turga    ishlatganda  yuzaga keladi errorgacha oqishydi 
+
+try catch bloks trykodda xatolikbolmasa ishlaydi catch esa hatolik bolganda shunchaki str formatga aylantiradi  
+finally kodd error bolsa ham bolmasa ham ishlayveradi
+strict mode qatiy rejim ozgaruvchilarni eon qilmasdan turib qiymat berishni taqiqlaydifunctionda berilsa faqat funksiya ichida ishlaydi 
+
+
+
+
+
+
+
+
+
+
+
+
+this  global === window nodejsda =={}
+functisyada this ===window
+use strict bolganda this === undefined
+object da this ==obj ozidagi malumotlarni 
+arrow function da ==== this ga ega emas va windowg  chiqiadi
+engine javascript engine bu kodni tahlil qilish  va mashina tiliga ogirish uchun ishlatiladi boshqa muhit va browserlarda ishlashi uchun kod ishlashi va tarjima qilinish bian shugullanadi
+v8 engine       nodejs chrome 
+spider money   mozilla firefox
+javascriptcore applewebkit
+chakra     microsoft edge da ishlaydi
+execution context 
+global 
+execution phase creation phase 
+creation phase uzgaruvchilarni undefined uninitialized qiladi 
+execution phase qiymat beradi  
+
+function execution context
+execution phase creation phase 
+creation phase uzgaruvchilarni undefined uninitialized qiladi 
+execution phase qiymat beradi  
+callstack funksiya chaqirilgan da uni bajarillishi haqida malumot saqlovchi tuzilma  lifo boyicha ishlaydi 
+3ta bosqich funksiya chaqirish bajarish callstackda nchiqarish 
